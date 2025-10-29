@@ -27,6 +27,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Popular products"),
+        actionsPadding: EdgeInsets.only(right: 12),
         actions: [
           ActionButton(label: "Filter"),
           SizedBox(width: 8),
